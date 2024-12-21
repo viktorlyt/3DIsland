@@ -8,6 +8,8 @@ import {
   festo,
   cart,
   nyam,
+  clicks,
+  castors,
 } from "../assets/images";
 import {
   car,
@@ -163,11 +165,24 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Software Developer | Full Stack Developer",
+    company_name: "The Clicks",
+    icon: clicks,
+    iconBg: "#000000",
+    date: "Sep 2024 - Present",
+    points: [
+      "Led and mentored a team of two subordinates (junior developer and intern), fostering skill development and ensuring project delivery.",
+      "Delivered key projects, including:\n - Web App for a hockey team: Implemented a shop and admin panel with efficient data management and user experience.\n - Web App for a beauty clinic: Built a dynamic, scalable platform with tailored features for client services.",
+      "Played a pivotal role in the full-stack development lifecycle using advanced technologies:\n   Frontend: Next.js 14, React, TypeScript, Tailwind CSS.\n   Backend: Node.js, Express, Strapi, PostgreSQL, MongoDB/Mongoose.\n   DevOps: CI/CD pipelines with GitHub Actions, Dockerized deployment on VPS, Nginx configuration.\n   Third-party integrations: Stripe for payments, Cloudinary for asset management.",
+      "Enhanced project efficiency through agile methodologies, active collaboration, and innovative problem-solving.",
+    ],
+  },
+  {
     title: "Full Stack Developer",
     company_name: "Promade",
     icon: promade,
     iconBg: "#accbe1",
-    date: "Feb 2024 - Present",
+    date: "Feb 2024 - Oct 2024",
     points: [
       "Developing a web platform aimed at providing comprehensive support for Canadian immigrants.",
       "Leveraging Next.js, MongoDB, TypeScript, and Tailwind CSS to ensure scalability, performance, and maintainability.",
@@ -176,11 +191,11 @@ export const experiences = [
     ],
   },
   {
-    title: "JavaScript Developer",
+    title: "JavaScript Developer | Mentor",
     company_name: "LECTRUM",
     icon: lectrum,
     iconBg: "#fbc3bc",
-    date: "Dec 2022 - Apr 2023",
+    date: "Dec 2022 - Jul 2023",
     points: [
       "Mentored and guided a diverse cohort of 20+ students, resulting in a significant improvement in their JavaScript and TypeScript skills, with many successfully completed projects.",
       "Developed four substantial projects using native JavaScript and TypeScript, incorporating advanced asynchronous programming techniques, leading to improved application performance and user experience.",
@@ -193,7 +208,7 @@ export const experiences = [
     company_name: "FESTOENTERTAINMENT",
     icon: festo,
     iconBg: "#b7e4c7",
-    date: "Aug 2022 - Dec 2022",
+    date: "Aug 2022 - Apr 2023",
     points: [
       "Collaborated with the FESTOENTERTAINMENT team to design and develop a responsive website (https://www.festoapp.co.uk/) and a feature-rich mobile app for Android using React Native, JavaScript, and Redux, leading to an engaging cross-platform user experience.",
       "Successfully integrated third-party libraries and services, such as Firebase, into the application, enabling real-time data synchronization, authentication, and push notifications, thereby enhancing the app's functionality and user engagement.",
@@ -231,6 +246,15 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: castors,
+    theme: "btn-back-orange",
+    name: "Hockey Team WebApp",
+    description:
+      "Full-stack Web App with implemented shop and client cabinet, efficient data management and user experience!",
+    link: "https://castors.hockey/",
+    // github: "https://github.com/viktorlyt/refine-admin/",
+  },
   {
     iconUrl: refine,
     theme: "btn-back-red",

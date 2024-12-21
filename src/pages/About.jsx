@@ -94,6 +94,7 @@ const About = () => {
                     <li
                       key={`exp-point-${index}`}
                       className="text-black-500/50 font-normal pl-1 text-sm"
+                      style={{ whiteSpace: "pre-wrap" }}
                     >
                       {point}
                     </li>

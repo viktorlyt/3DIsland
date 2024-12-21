@@ -9,6 +9,8 @@ import contentful from "./contentful-recipes.png";
 import festo from "./festo.png";
 import cart from "./add-to-cart.png";
 import nyam from "./nyam.png";
+import clicks from "./clicks.svg";
+import castors from "./castors.png";
 
 export {
   hero,
@@ -22,4 +24,6 @@ export {
   logo,
   cart,
   nyam,
+  clicks,
+  castors,
 };

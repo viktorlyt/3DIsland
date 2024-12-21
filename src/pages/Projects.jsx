@@ -59,21 +59,23 @@ const Projects = () => {
                   className="w-4 h-4 object-contain"
                 />
               </div>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
-                <Link
-                  to={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
-                >
-                  Github Link
-                </Link>
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="w-4 h-4 object-contain"
-                />
-              </div>
+              {project.github && (
+                <div className="mt-5 flex items-center gap-2 font-poppins">
+                  <Link
+                    to={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue-600"
+                  >
+                    Github Link
+                  </Link>
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="w-4 h-4 object-contain"
+                  />
+                </div>
+              )}
             </div>
           </div>
         ))}

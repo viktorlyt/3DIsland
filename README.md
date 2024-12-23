@@ -1,1 +1,1 @@
-demo: https://3-d-island-sigma.vercel.app/about
+demo: https://3-d-island-viktorlyts-projects.vercel.app/

@@ -8,8 +8,9 @@ import {
   festo,
   cart,
   nyam,
-  clicks,
   castors,
+  lana,
+  clicks,
 } from "../assets/images";
 import {
   car,
@@ -172,8 +173,8 @@ export const experiences = [
     date: "Sep 2024 - Present",
     points: [
       "Led and mentored a team of two subordinates (junior developer and intern), fostering skill development and ensuring project delivery.",
-      "Delivered key projects, including:\n - Web App for a hockey team: Implemented a shop and admin panel with efficient data management and user experience.\n - Web App for a beauty clinic: Built a dynamic, scalable platform with tailored features for client services.",
-      "Played a pivotal role in the full-stack development lifecycle using advanced technologies:\n   Frontend: Next.js 14, React, TypeScript, Tailwind CSS.\n   Backend: Node.js, Express, Strapi, PostgreSQL, MongoDB/Mongoose.\n   DevOps: CI/CD pipelines with GitHub Actions, Dockerized deployment on VPS, Nginx configuration.\n   Third-party integrations: Stripe for payments, Cloudinary for asset management.",
+      "Delivered key projects, including:\n - Web App for a hockey team: Implemented a shop and admin panel with efficient data management and user experience.\n - Web App for a beauty clinic: Built a dynamic, scalable platform with tailored features for client services.\n - Company Website for The Clicks: Developed a high-performance, content-driven site using Next.js 14, Con-tentful, Stripe, Tailwind, and TypeScript.\n - Taxi Mobile App: Built a ride-sharing mobile application with React Native, Expo, TypeScript, Nativewind, Clerk for authentication, Stripe for payments, and Zustand for state management.",
+      "Played a pivotal role in the full-stack development lifecycle using advanced technologies:\n   Frontend: Next.js 14, React, React Native, TypeScript, Tailwind CSS, Nativewind.\n   Backend: Node.js, Express, Strapi, PostgreSQL, MongoDB/Mongoose.\n   DevOps: CI/CD pipelines with GitHub Actions, Dockerized deployment on VPS, Nginx configuration.\n   Third-party integrations: Stripe for payments, Cloudinary for asset management, Clerk for authentication.",
       "Enhanced project efficiency through agile methodologies, active collaboration, and innovative problem-solving.",
     ],
   },
@@ -246,6 +247,24 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: clicks,
+    theme: "btn-back-black",
+    name: "Company Website",
+    description:
+      "A high-performance, content-driven site using Next.js 14, Contentful, Stripe, Tailwind, and TypeScript.",
+    link: "https://theclicks.ca/",
+    // github: "https://github.com/viktorlyt/refine-admin/",
+  },
+  {
+    iconUrl: lana,
+    theme: "btn-back-yellow",
+    name: "Beauty Clinic WebApp",
+    description:
+      "A dynamic, scalable platform with tailored features for client services",
+    link: "https://lana.clinic/",
+    // github: "https://github.com/viktorlyt/refine-admin/",
+  },
   {
     iconUrl: castors,
     theme: "btn-back-orange",

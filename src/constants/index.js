@@ -253,7 +253,7 @@ export const projects = [
     name: "Company Website",
     description:
       "A high-performance, content-driven site using Next.js 14, Contentful, Stripe, Tailwind, and TypeScript.",
-    link: "https://theclicks.ca/",
+    link: "https://theclicks.vercel.app",
     // github: "https://github.com/viktorlyt/refine-admin/",
   },
   {
